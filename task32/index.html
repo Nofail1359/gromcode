@@ -10,6 +10,77 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="/styles.css" />
+        <style>
+            .page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+
+}
+
+
+section{
+    background-color: pink;
+    flex-grow: 1;
+    display: flex;
+}
+section > h2{
+    margin: auto;
+}
+aside{
+    width: 200px;
+    flex-grow: 0;
+    background-color: gray;
+}
+
+aside > h2{
+    text-align: center;
+    margin: 16px auto;
+}
+
+aside > ul {
+    line-height: 40px;
+    padding: 0;
+}
+
+aside > ul > li{
+    margin-left: 16px;
+}
+header{
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+
+}
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+header > nav > ul > li{
+    margin-left: 16px;
+}
+
+header > nav > ul {
+    display: flex;
+}
+
+footer{
+    background-color: green;
+    display: flex;
+    height: 40px;
+}
+
+footer > span {
+    margin: auto;
+}
+        </style>
     </head>
 
     <body>
