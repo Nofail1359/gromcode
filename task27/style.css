@@ -24,6 +24,11 @@ li{
     line-height: 40px;
     
 }
+li:nth-child(2){
+    margin-left: 14px;
+
+}
+
 main{
     height: 5000px;
     background-color: beige;
