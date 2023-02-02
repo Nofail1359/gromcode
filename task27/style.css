@@ -11,10 +11,12 @@
 
 ul{
     list-style: none;
-    line-height: 4px; 
+    margin: 0;
+    line-height: 35px;
 }
 li{
     display: inline;
+    margin: 0;
     margin-left: 16px;
     color: white; 
 }
