@@ -7,6 +7,7 @@
     width: 100%;
     background-color: darkturquoise;
     height: 40px;
+    z-index: 2;
 }
 
 ul{
@@ -35,7 +36,7 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: aquamarine;
-    z-index: -1;
+    z-index: 1;
 }
 
 .ear{
