@@ -13,12 +13,13 @@
 ul{
     list-style: none;
     margin: 0;
+    padding-left: 39px;
     
 }
 li{
     display: inline-block;
     margin: 0;
-    margin-left: 16px;
+    margin-left: 15px;
     color: white; 
     line-height: 40px;
     
