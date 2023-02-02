@@ -3,7 +3,7 @@
 }
 .block{
     height: 300px;
-    width: 50px;
+    /* width: 50px; */
     flex-grow: 1;
 }
 .block_red{
