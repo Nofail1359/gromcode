@@ -1,4 +1,4 @@
-* {
+html {
     font-family: "Roboto", sans-serif;
     margin: 32px;
     font-size: 18px;
@@ -20,15 +20,12 @@ p span {
     font-size: 24px;
     opacity: 0.8;
     text-decoration: underline;
-    margin: 0;
 }
 
 a {
     text-decoration: none;
-    margin: 0;
 }
 
 em {
-    margin: 0;
     color: grey;
 }
